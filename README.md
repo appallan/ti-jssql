@@ -1,11 +1,3 @@
-# Global
-
-
-
-
-
-* * *
-
 ## Class: jssql
 A bluebird promise based database wrapper for Ti.Database API. Partly based on https://github.com/ricardoalcocer/jssql thanks for the idea!
 JSSQL CommonJS module. Using bluebird promises.
