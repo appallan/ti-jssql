@@ -95,7 +95,6 @@ var jssql = /** @class */ (function () {
             _this.tableExists(tablename).then(function () {
                 _this.db = Ti.Database.open(_this.dbname);
                 try {
-                    console.log("Deleting ", "DROP TABLE " + tablename);
                     _this.db.execute("DROP TABLE " + tablename);
                     resolve();
                 }
